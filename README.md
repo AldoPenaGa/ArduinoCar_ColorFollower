@@ -24,8 +24,8 @@ The objective of this project was to develop an autonomous ball-tracking system 
 
 ### Key_Components
 
-- Parallax Robot:
-	-The Parallax Robot served as our platform for implementing autonomous navigation. Its mobility allowed it to move freely and 		respond to visual stimulation.
+- Parallax Robot: 
+	-The Parallax Robot served as our platform for implementing autonomous navigation. Its mobility allowed it to move freely and 		respond to visual 		stimulation.
 	- We integrated the robot with an onboard webcam for real-time visual input.
 
 - MATLAB Image Processing: Using image processing algorithms, we identified the position and trajectory of the plastic ball.
