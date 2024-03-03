@@ -65,15 +65,14 @@ git clone https://github.com/AldoPenaGa/AutonomousBallTracking_Arduino_and_MATLA
 
 The time elapsed for each interaction can be seen in the following figures. 
 
-<img src="https://github.com/AldoPenaGa/UR5_CubesColorFiltering_MATLAB/blob/main/RCleanImage.png">
+<img src="https://github.com/AldoPenaGa/AutonomousBallTracking_Arduino_and_MATLAB/blob/main/Try.gif">
 
-<img src="https://github.com/AldoPenaGa/UR5_CubesColorFiltering_MATLAB/blob/main/RNoisyImage.png">
 
 ### Contributors
 
 | Name                          | Github                               |
 |-------------------------------|--------------------------------------|
 | Aldo Oziel Peña Gamboa        | https://github.com/AldoPenaGa        |
-| José Miguel Zúñiga Juárez     | https://github.com/JmZG 	|
-| Alessia Simonetti             | https://github.com/SimonettiAl|
-| Adrián Enrique Diaz Fornes    | https://github.com/FornesEnrique|
+| José Miguel Zúñiga Juárez     | https://github.com/JoseMiguelZG      |
+| Alessia Simonetti             | https://github.com/SimonettiAl       |
+| Adrián Enrique Diaz Fornes    | https://github.com/FornesEnrique     |
