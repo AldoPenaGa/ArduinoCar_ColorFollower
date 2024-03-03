@@ -7,7 +7,7 @@
   
 The objective of this project was to develop an autonomous ball-tracking system using the Parallax Robot. Leveraging computer vision techniques within MATLAB and controlling an Arduino microcontroller, we aimed to create a dynamic entity capable of tracking and following the path of a plastic ball.
 	  
-  <br>Universidad de las Américas Puebla - The project was supervised by Professor José Luis Vázquez González (PhD in Electronics) "https://scholar.google.com/citations?user=Y3FiPaQAAAAJ&hl=es" 
+  <br>Universidad de las Américas Puebla - The project was supervised by Professor José Luis Vázquez González (PhD in Electronics). https://scholar.google.com/citations?user=Y3FiPaQAAAAJ&hl=es
   </p>
 </p>
 <be>
