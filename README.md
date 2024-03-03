@@ -5,7 +5,7 @@
     
 ## Overview
   
-This project consists of a color sorting system that uses the UR5 model robot from Universal Robots and MATLAB image processing software in order to achieve its goal. The system was able to detect the location and color of cubes on a workbench from a picture, allowing the robot to sort the objects into bins based on their color. Also, some filters that introduced noise were added to make the program more powerful and robust.
+The objective of this project was to develop an autonomous ball-tracking system using the Parallax Robot. Leveraging computer vision techniques within MATLAB and controlling an Arduino microcontroller, we aimed to create a dynamic entity capable of tracking and following the path of a plastic ball.
 	  
   <br>Universidad de las Américas Puebla - The project was supervised by Professor José Luis Vázquez González (PhD in Electronics) "https://scholar.google.com/citations?user=Y3FiPaQAAAAJ&hl=es" 
   </p>
@@ -24,41 +24,42 @@ This project consists of a color sorting system that uses the UR5 model robo
 
 ### Key_Components
 
-- UR5 Robot Arm: The UR5, a versatile industrial robot, plays a crucial role in physically handling and sorting objects. It can pick up items from a workbench and place them into designated bins
+- Parallax Robot:
+	-The Parallax Robot served as our platform for implementing autonomous navigation. Its mobility allowed it to move freely and 		respond to visual stimulation.
+	- We integrated the robot with an onboard webcam for real-time visual input.
 
-- MATLAB Image Processing: We’ve developed a robust image processing pipeline using MATLAB. It identifies the location of objects on the workbench and determines their colors. The processed data is then used to guide the robot’s actions.
+- MATLAB Image Processing: Using image processing algorithms, we identified the position and trajectory of the plastic ball.
+
+- The Arduino microcontroller acted as the control unit for the robot. It received instructions from the MATLAB program and executed corresponding movements.
 
 ### Installation_and_Setup
 
 Before diving into the code, make sure you have the following prerequisites:
 
-- UR5 robot (or a compatible robotic arm)
-- MATLAB installed (version X.X or higher)
+- Parallax 'Robot Shield with Arduino' https://www.parallax.com/product/robot-shield-with-arduino/
+- MATLAB installed (version 2023a or higher)
 - Webcam or camera for image capture
 
 
 1. Install MATLAB (R2023a or newer version). https://la.mathworks.com/help/install/install-products.html
 
-2. Install the Image Processing Toolbox in MATLAB. https://la.mathworks.com/products/image.html
+2. Install the necessary MATLAB Add-Ons:
+   - Image Processing Toolbox in MATLAB. 
+   - MATLAB Support Package for Arduino Hardware.
+   - MATLAB Support Package for USB Webcams.
 
 3. Clone this repository to your local machine:
 
 ```
-git clone https://github.com/AldoPenaGa/UR5_CubesColorFiltering_MATLAB
+git clone https://github.com/AldoPenaGa/AutonomousBallTracking_Arduino_and_MATLAB
 
 ```
 
 ### Usage
 
-1. Capture the images and introduce them in the MATLAB workspace folder.
-2. Run the MATLAB program (colorSorterer.m) to do the filtering and obtain the table that indicates the color of each cube in each position.
-3. Program the UR5 variables and routines:
-   3.1 Use the teach pendant of the UR5 to create ten variables that represent the ten cubes in the workspace. Associate the colors to a number.
-   3.2 Program the routines using moveJ and moveL to set up the positions and the configurations HOME, APPROACH-PICK, PICK, APPROACH-PLACE, PLACE.
-
-4. Update the numbers associated with each color in the variables section in order to indicate the UR5 which routine will be executing.
-
- Once the routines have been settled, step 3 can be skipped. 
+1. Run the MATLAB program 'code.m' to make the connection with Arduino and MATLAB.
+2. Adjust 'movimiento.m' with the specific values of the ServoMotors used.
+3. Modify 'blue.m' to adjust to the requirements for following the desired object.
 
 ### Results
 
